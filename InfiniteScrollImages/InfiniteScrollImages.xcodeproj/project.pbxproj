@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4736A24D2CE5F7CA00097621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4736A2332CE5F7C800097621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4736A23A2CE5F7C800097621;
+			remoteInfo = InfiniteScrollImages;
+		};
+		4736A2572CE5F7CA00097621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4736A2332CE5F7C800097621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4736A23A2CE5F7C800097621;
+			remoteInfo = InfiniteScrollImages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4736A23B2CE5F7C800097621 /* InfiniteScrollImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteScrollImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4736A24C2CE5F7CA00097621 /* InfiniteScrollImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteScrollImagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4736A2562CE5F7CA00097621 /* InfiniteScrollImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteScrollImagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4736A23D2CE5F7C800097621 /* InfiniteScrollImages */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InfiniteScrollImages;
+			sourceTree = "<group>";
+		};
+		4736A24F2CE5F7CA00097621 /* InfiniteScrollImagesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InfiniteScrollImagesTests;
+			sourceTree = "<group>";
+		};
+		4736A2592CE5F7CA00097621 /* InfiniteScrollImagesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InfiniteScrollImagesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4736A2382CE5F7C800097621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4736A2492CE5F7CA00097621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4736A2532CE5F7CA00097621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4736A2322CE5F7C800097621 = {
+			isa = PBXGroup;
+			children = (
+				4736A23D2CE5F7C800097621 /* InfiniteScrollImages */,
+				4736A24F2CE5F7CA00097621 /* InfiniteScrollImagesTests */,
+				4736A2592CE5F7CA00097621 /* InfiniteScrollImagesUITests */,
+				4736A23C2CE5F7C800097621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4736A23C2CE5F7C800097621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4736A23B2CE5F7C800097621 /* InfiniteScrollImages.app */,
+				4736A24C2CE5F7CA00097621 /* InfiniteScrollImagesTests.xctest */,
+				4736A2562CE5F7CA00097621 /* InfiniteScrollImagesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4736A23A2CE5F7C800097621 /* InfiniteScrollImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4736A2602CE5F7CA00097621 /* Build configuration list for PBXNativeTarget "InfiniteScrollImages" */;
+			buildPhases = (
+				4736A2372CE5F7C800097621 /* Sources */,
+				4736A2382CE5F7C800097621 /* Frameworks */,
+				4736A2392CE5F7C800097621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4736A23D2CE5F7C800097621 /* InfiniteScrollImages */,
+			);
+			name = InfiniteScrollImages;
+			packageProductDependencies = (
+			);
+			productName = InfiniteScrollImages;
+			productReference = 4736A23B2CE5F7C800097621 /* InfiniteScrollImages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4736A24B2CE5F7CA00097621 /* InfiniteScrollImagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4736A2632CE5F7CA00097621 /* Build configuration list for PBXNativeTarget "InfiniteScrollImagesTests" */;
+			buildPhases = (
+				4736A2482CE5F7CA00097621 /* Sources */,
+				4736A2492CE5F7CA00097621 /* Frameworks */,
+				4736A24A2CE5F7CA00097621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4736A24E2CE5F7CA00097621 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4736A24F2CE5F7CA00097621 /* InfiniteScrollImagesTests */,
+			);
+			name = InfiniteScrollImagesTests;
+			packageProductDependencies = (
+			);
+			productName = InfiniteScrollImagesTests;
+			productReference = 4736A24C2CE5F7CA00097621 /* InfiniteScrollImagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4736A2552CE5F7CA00097621 /* InfiniteScrollImagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4736A2662CE5F7CA00097621 /* Build configuration list for PBXNativeTarget "InfiniteScrollImagesUITests" */;
+			buildPhases = (
+				4736A2522CE5F7CA00097621 /* Sources */,
+				4736A2532CE5F7CA00097621 /* Frameworks */,
+				4736A2542CE5F7CA00097621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4736A2582CE5F7CA00097621 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4736A2592CE5F7CA00097621 /* InfiniteScrollImagesUITests */,
+			);
+			name = InfiniteScrollImagesUITests;
+			packageProductDependencies = (
+			);
+			productName = InfiniteScrollImagesUITests;
+			productReference = 4736A2562CE5F7CA00097621 /* InfiniteScrollImagesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4736A2332CE5F7C800097621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					4736A23A2CE5F7C800097621 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					4736A24B2CE5F7CA00097621 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 4736A23A2CE5F7C800097621;
+					};
+					4736A2552CE5F7CA00097621 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 4736A23A2CE5F7C800097621;
+					};
+				};
+			};
+			buildConfigurationList = 4736A2362CE5F7C800097621 /* Build configuration list for PBXProject "InfiniteScrollImages" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4736A2322CE5F7C800097621;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4736A23C2CE5F7C800097621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4736A23A2CE5F7C800097621 /* InfiniteScrollImages */,
+				4736A24B2CE5F7CA00097621 /* InfiniteScrollImagesTests */,
+				4736A2552CE5F7CA00097621 /* InfiniteScrollImagesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4736A2392CE5F7C800097621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4736A24A2CE5F7CA00097621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4736A2542CE5F7CA00097621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4736A2372CE5F7C800097621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4736A2482CE5F7CA00097621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4736A2522CE5F7CA00097621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4736A24E2CE5F7CA00097621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4736A23A2CE5F7C800097621 /* InfiniteScrollImages */;
+			targetProxy = 4736A24D2CE5F7CA00097621 /* PBXContainerItemProxy */;
+		};
+		4736A2582CE5F7CA00097621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4736A23A2CE5F7C800097621 /* InfiniteScrollImages */;
+			targetProxy = 4736A2572CE5F7CA00097621 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4736A25E2CE5F7CA00097621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4736A25F2CE5F7CA00097621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4736A2612CE5F7CA00097621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = InfiniteScrollImages/InfiniteScrollImages.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InfiniteScrollImages/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.InfiniteScrollImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4736A2622CE5F7CA00097621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = InfiniteScrollImages/InfiniteScrollImages.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InfiniteScrollImages/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.InfiniteScrollImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4736A2642CE5F7CA00097621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.InfiniteScrollImagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfiniteScrollImages.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InfiniteScrollImages";
+			};
+			name = Debug;
+		};
+		4736A2652CE5F7CA00097621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.InfiniteScrollImagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfiniteScrollImages.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InfiniteScrollImages";
+			};
+			name = Release;
+		};
+		4736A2672CE5F7CA00097621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.InfiniteScrollImagesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = InfiniteScrollImages;
+			};
+			name = Debug;
+		};
+		4736A2682CE5F7CA00097621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.InfiniteScrollImagesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = InfiniteScrollImages;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4736A2362CE5F7C800097621 /* Build configuration list for PBXProject "InfiniteScrollImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4736A25E2CE5F7CA00097621 /* Debug */,
+				4736A25F2CE5F7CA00097621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4736A2602CE5F7CA00097621 /* Build configuration list for PBXNativeTarget "InfiniteScrollImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4736A2612CE5F7CA00097621 /* Debug */,
+				4736A2622CE5F7CA00097621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4736A2632CE5F7CA00097621 /* Build configuration list for PBXNativeTarget "InfiniteScrollImagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4736A2642CE5F7CA00097621 /* Debug */,
+				4736A2652CE5F7CA00097621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4736A2662CE5F7CA00097621 /* Build configuration list for PBXNativeTarget "InfiniteScrollImagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4736A2672CE5F7CA00097621 /* Debug */,
+				4736A2682CE5F7CA00097621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4736A2332CE5F7C800097621 /* Project object */;
+}
