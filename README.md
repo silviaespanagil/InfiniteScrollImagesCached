@@ -95,7 +95,7 @@ Simply add ArtGalleryView to your SwiftUI view hierarchy and configure as needed
 Code considerations
 -----
 
-Please check to see `Code considerations` current code has many prints to make the cache actions more visuals. To use the code I recommed to replace the methods on `ImageCache.swift` with the ones stated there.
+Please [check here](https://github.com/silviaespanagil/InfiniteScrollImagesCached/blob/main/InfiniteScrollImages/InfiniteScrollImages/Readme.md) to see `Code considerations` current code has many prints to make the cache actions more visuals. To use the code I recommed to replace the methods on `ImageCache.swift` with the ones stated [there](https://github.com/silviaespanagil/InfiniteScrollImagesCached/blob/main/InfiniteScrollImages/InfiniteScrollImages/Readme.md).
 
 Important Notes
 ---------------
